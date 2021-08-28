@@ -26,6 +26,13 @@ ResNet32 on CIFAR10 with 40% uniform noise:
 ```
 python main.py --meta_lr 1e-3 --meta_weight_decay 1e-4 --corruption_type uniform --corruption_ratio 0.4
 ```
+## Resuilt(CIFAR10)
+|Data Setting|Test Accuracy|
+|:----------:|:-----------:|
+|imbalanced factor 50|80.43%|
+|imbalanced factor 100|75.92%|
+|imbalanced factor 200|68.89%|
+|40% uniform noise|87.83%|
 ## Acknowledgements
 Thanks to the original code of Meta-Weight-Net (https://github.com/xjtushujun/meta-weight-net).
 
