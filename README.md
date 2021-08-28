@@ -15,7 +15,7 @@ See `meta.py` and line 90-120 of `main.py` for details.
 - torchvision 0.10.0
 
 `noisy_long_tail_CIFAR.py` can generate noisy and long-tailed CIFAR datasets by calling `torchvision.datasets`. Because 
-some class attributes have been changed, errors may occur in some earlier versions of torchvision. It can be solved by
+some class attributes' names have been changed, errors may occur in some earlier versions of torchvision. It can be solved by
 changing the corresponding attribute name.
 ## Running this example
 ResNet32 on CIFAR10-LT with imbalanced factor of 50:
